@@ -1,0 +1,20 @@
+{
+  "name": "@monorepo/hot-dog-ai",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "dependencies": {
+    "@monorepo/date-utils": "*",
+    "json-diff-ts": "4.8.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

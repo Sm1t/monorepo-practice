@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "lib": ["es2022", "dom"],
+        "target": "es2022",
+        "module": "es2022",
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "allowJs": true,
+        "strict": true,
+    },
+    "exclude": ["**/*.js"]
+}
