@@ -10,8 +10,8 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "yarn workspaces foreach --since -pR run test",
-    "build": "yarn workspaces foreach --since -ptvR run build"
+    "test": "yarn workspaces foreach --since -p run test",
+    "build": "yarn workspaces foreach --since -pt run build"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",

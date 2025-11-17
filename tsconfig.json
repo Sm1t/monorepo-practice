@@ -1,12 +1,12 @@
 {
     "compilerOptions": {
         "lib": ["ES2023", "dom"],
-        "module": "nodenext",
-        "moduleResolution": "nodenext",
+        "module": "esnext",
+        "moduleResolution": "bundler",
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "allowJs": true,
         "strict": true,
     },
-    "exclude": ["**/*.js"]
+    "exclude": ["**/*.js", "**/*.test.ts"]
 }

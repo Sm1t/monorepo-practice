@@ -1,4 +1,4 @@
-const getDayOfTheWeek = require('../index').getDayOfTheWeek
+import { getDayOfTheWeek } from '..';
 
 // 1 Jan 2025 = Wednesday
 jest
