@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/hot-dog-ai",
+  "name": "@monorepo/hotdog-ai",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
@@ -11,7 +11,7 @@
     ".": "./dist/index.js"
   },
   "dependencies": {
-    "@monorepo/date-utils": "*",
+    "@monorepo/date-utils": "workspace:*",
     "json-diff-ts": "4.8.2"
   },
   "publishConfig": {
