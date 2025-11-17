@@ -10,8 +10,9 @@
     "packages/*"
   ],
   "scripts": {
-    "test": "yarn workspaces foreach --since -p run test",
-    "build": "yarn workspaces foreach --since -pt run build"
+    "build": "yarn turbo build",
+    "dev": "yarn turbo dev",
+    "test": "yarn turbo build test"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
@@ -19,6 +20,7 @@
     "jest": "^30.2.0",
     "ts-jest": "^29.4.5",
     "ts-node": "^10.9.2",
+    "turbo": "^2.6.1",
     "typescript": "^5.9.3"
   },
   "packageManager": "yarn@4.11.0"
