@@ -3,8 +3,6 @@ const { createDefaultPreset } = require("ts-jest");
 
 const tsJestTransformCfg = createDefaultPreset().transform;
 
-console.log('HERE', path.join(__dirname, 'packages/$1/src').replace(/\\/g, '\/'))
-
 /** @type {import("jest").Config} **/
 module.exports = {
   transform: {
